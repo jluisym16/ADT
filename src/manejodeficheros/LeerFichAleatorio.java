@@ -8,7 +8,7 @@ import java.io.RandomAccessFile;
 public class LeerFichAleatorio {
 
 	public static void main(String[] args) throws IOException {
-		File fic = new File("J:\\ADT\\ficheroaleatorio.dat");
+		File fic = new File("J:\\ADT\\cosa.dat");
 		RandomAccessFile file = new RandomAccessFile (fic, "r");
 		int id, dep, posicion;
 		Double salario;
