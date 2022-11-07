@@ -1,4 +1,4 @@
-package manejodeficheros;
+package manejodeficheros.clasesasociadas;
 
 import java.io.File;
 import java.io.IOException;

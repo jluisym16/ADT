@@ -1,4 +1,4 @@
-package manejodeficheros;
+package manejodeficheros.gestionarflujo.objetosficherobinario;
 
 import java.io.EOFException;
 import java.io.File;
@@ -16,7 +16,7 @@ public class LeerFichObject {
 
 	private static void extracted() throws IOException, FileNotFoundException, ClassNotFoundException {
 		Persona persona;
-		File fic = new File("J:\\ADT\\FichPersona.dat");
+		File fic = new File("J:\\ADT\\directorio\\FichPersona.dat");
 		ObjectInputStream objectIS = new ObjectInputStream (new FileInputStream(fic));
 		int i=1;
 		try {

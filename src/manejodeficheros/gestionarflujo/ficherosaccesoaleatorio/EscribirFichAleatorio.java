@@ -1,4 +1,4 @@
-package manejodeficheros;
+package manejodeficheros.gestionarflujo.ficherosaccesoaleatorio;
 
 import java.io.File;
 import java.io.IOException;
@@ -7,7 +7,7 @@ import java.io.RandomAccessFile;
 public class EscribirFichAleatorio {
 
 	public static void main(String[] args) throws IOException {
-		File fic = new File("J:\\ADT\\ficheroaleatorio.dat");
+		File fic = new File("J:\\ADT\\directorio\\ficheroaleatorio.dat");
 		RandomAccessFile file = new RandomAccessFile (fic, "rw");
 		String apellido[] = {"Fernandez", "Gil", "Lopez", "Ramos","Sevilla", "Casilla", "Rey"};
 		int dep[]= {10,20,10,10,30,30,20};

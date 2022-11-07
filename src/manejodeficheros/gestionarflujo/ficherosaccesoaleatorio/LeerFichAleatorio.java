@@ -1,4 +1,4 @@
-package manejodeficheros;
+package manejodeficheros.gestionarflujo.ficherosaccesoaleatorio;
 
 import java.io.EOFException;
 import java.io.File;
@@ -8,7 +8,7 @@ import java.io.RandomAccessFile;
 public class LeerFichAleatorio {
 
 	public static void main(String[] args) throws IOException {
-		File fic = new File("J:\\ADT\\cosa.dat");
+		File fic = new File("J:\\ADT\\directorio\\aleatoriorep.dat");
 		RandomAccessFile file = new RandomAccessFile (fic, "r");
 		int id, dep, posicion;
 		Double salario;

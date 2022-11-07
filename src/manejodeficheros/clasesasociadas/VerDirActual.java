@@ -1,11 +1,12 @@
-package manejodeficheros;
+package manejodeficheros.clasesasociadas;
 
 import java.io.File;
 
-public class VerDirActualMod {
+public class VerDirActual {
+
 	public static void main(String[] args) {
 		//Con esto se define la direccion
-		String dir = args[1]; 
+		String dir = ".";  
 		//Escribe la ruta 
 		System.out.println("Archivos en el directorio " +dir); 
 		//Los contenidos de la ruta se guardan en un file
@@ -20,4 +21,5 @@ public class VerDirActualMod {
 			System.out.printf("Nombre: %s, es fichero?: %b, es directorio?: %b %n", archivos[i], f2.isFile(), f2.isDirectory());
 		}
 	}
+
 }
